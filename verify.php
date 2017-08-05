@@ -1,5 +1,5 @@
 <?php
-$access_token = 'XXXXXXXXXXXXXXXXXXXXXXX';
+$access_token = $_ENV["LINEBOT_ACCESS_TOKEN"];
 
 $url = 'https://api.line.me/v1/oauth/verify';
 
